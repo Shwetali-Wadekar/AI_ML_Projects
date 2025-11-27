@@ -30,8 +30,9 @@ __pycache__/
 *.pid
 
 #tools
-/tools/dataset_inspector.py
-/tools/metric_parser.py
+#app/tools/*.py
+app/tools/dataset_inspector.py
+app/tools/metrics_parser.py
 
 #examples
 /examples/
