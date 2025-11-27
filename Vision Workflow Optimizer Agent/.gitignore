@@ -3,6 +3,64 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+
+
+# --------------------
+# Virtual Environment
+# --------------------
+# Your virtual environment folder
+/Vision_Agent.venv
+/venv
+/env
+.venv
+
+# --------------------
+# Project Artifacts
+# --------------------
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs and Run Data
+/logs/
+*.log
+
+# FastAPI / Uvicorn
+*.pid
+
+#tools
+/tools/dataset_inspector.py
+/tools/metric_parser.py
+
+#examples
+/examples/
+
+# --------------------
+# Configuration & Secrets
+# --------------------
+# Environment variables file containing your GOOGLE_API_KEY
+*.env
+.env
+key.env
+
+# --------------------
+# IDE and OS Files
+# --------------------
+# VS Code
+.vscode/
+# PyCharm / JetBrains
+.idea/
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+
+# --------------------
+# Jupyter Notebook Checkpoints
+# --------------------
+.ipynb_checkpoints
+
 # User-specific files
 *.rsuser
 *.suo
@@ -417,51 +475,3 @@ FodyWeavers.xsd
 *.msm
 *.msp
 
-# --------------------
-# Virtual Environment
-# --------------------
-# Your virtual environment folder
-/Vision_Agent.venv
-/venv
-/env
-.venv
-
-# --------------------
-# Project Artifacts
-# --------------------
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Logs and Run Data
-/logs/
-*.log
-
-# FastAPI / Uvicorn
-*.pid
-
-# --------------------
-# Configuration & Secrets
-# --------------------
-# Environment variables file containing your GOOGLE_API_KEY
-*.env
-.env
-key.env
-
-# --------------------
-# IDE and OS Files
-# --------------------
-# VS Code
-.vscode/
-# PyCharm / JetBrains
-.idea/
-# macOS
-.DS_Store
-# Windows
-Thumbs.db
-
-# --------------------
-# Jupyter Notebook Checkpoints
-# --------------------
-.ipynb_checkpoints
